@@ -8,4 +8,20 @@ def is_prime(n):
         return True
     
 n = 13
+<<<<<<< HEAD
 print(is_prime(n))
+=======
+print(is_prime(n))
+
+
+# find dbulicate
+
+l = [1,2,3,44,55,55,66,7]
+result = []
+
+for i in l:
+    if i not in result:
+        result.append(i)
+
+print(result)
+>>>>>>> my_branch
