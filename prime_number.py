@@ -7,5 +7,5 @@ def is_prime(n):
     else:
         return True
     
-n = 12
+n = 13
 print(is_prime(n))
